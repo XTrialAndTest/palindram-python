@@ -1,12 +1,4 @@
 img_ur,book_name,book_price,book_stoke
-media/cache/27/a5/27a53d0bb95bdd88288eaf66c9230d7e.jpg,It's Only the Himalayas,£45.17,In stock
-../media/cache/e9/20/e9203b733126c4a0832a1c7885dc27cf.jpg,You can't bury them ...,£33.63,In stock
-../media/cache/5d/7f/5d7f496cdf5e5962a73ecdcc1505c1d5.jpg,The Natural History of ...,£45.22,In stock
-../media/cache/f3/ef/f3efd43ae0fa85d9b325d5e8783e7af5.jpg,"Rat Queens, Vol. 3: ...",£50.40,In stock
-../media/cache/fe/ea/feeafd2ad7b3077f8e74cbb1da9e3c7d.jpg,In the Country We ...,£22.00,In stock
-../media/cache/06/18/061811c5845d0e13bc04b2a755f0830f.jpg,Avatar: The Last Airbender: ...,£28.09,In stock
-../media/cache/ea/04/ea0476a6f4c318ceccf5e2f2b39f2b15.jpg,The Stranger,£17.44,In stock
-img_ur,book_name,book_price,book_stoke
 http://books.toscrape.com/media/cache/27/a5/27a53d0bb95bdd88288eaf66c9230d7e.jpg,It's Only the Himalayas,£45.17,In stock
 http://books.toscrape.com/media/cache/e9/20/e9203b733126c4a0832a1c7885dc27cf.jpg,You can't bury them ...,£33.63,In stock
 http://books.toscrape.com/media/cache/5d/7f/5d7f496cdf5e5962a73ecdcc1505c1d5.jpg,The Natural History of ...,£45.22,In stock
