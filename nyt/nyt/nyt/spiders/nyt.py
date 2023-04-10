@@ -19,9 +19,9 @@ class NytSpider(scrapy.Spider):
         author=response.css('a.e1jsehar0::text').get()
         if sumarry is not none and author is not none and main_heading is not none :
             theData={
-            'Heading':main_heading,
-            'summary':sumarry,
-            'author':author,
+            "Heading":"{main_heading}",
+            "summary":"{sumarry}",
+            "author":"{author}",
             
 
         }
