@@ -4,7 +4,7 @@ import scrapy
 class JumiaSpider(scrapy.Spider):
     name = "jumia"
     # allowed_domains = ["https://www.jumia.co.ke/home-office-appliances/"]
-    start_urls = ["https://www.jumia.co.ke/cooking-appliances-warming-drawer/"]
+    start_urls = ["https://www.jumia.co.ke/home-cooking-appliance-accessories/"]
 
     def parse(self, response):
        
