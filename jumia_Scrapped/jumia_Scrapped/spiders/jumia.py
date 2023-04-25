@@ -1,5 +1,6 @@
 import scrapy
-
+n=0
+listN=[]
 
 class JumiaSpider(scrapy.Spider):
     name = "jumia"
@@ -61,11 +62,18 @@ class JumiaSpider(scrapy.Spider):
         for i in all_imges:
             imageList.append(i)
         singleImage=response.css('#jm > main > div:nth-child(1) > section > div > div.col6.-phs.-pvxs > div>div>a::attr("href")').get()
+        # unique id 
+      
         
-        print( discount)
-        #product_name,price,brand,,specifications,in_box,key_features,desc,no_of_ratings
+        def num():  
+            global n
+            n= n+1
+           
+            return n
+        
+        
         yield {
-
+                "id":num(),
                 "product_name":product_name,
                 "discount":discount,
                 "price": price,
